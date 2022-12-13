@@ -1,0 +1,207 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-color: rgb(2, 2, 2);
+}
+/* nav {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background: #fff;
+}
+nav a{
+   color: #DB4437;
+} */
+
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: white;
+    padding: 0px 10px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+nav .logo{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 5px;
+    color: teal;
+}
+nav .menu a{
+    margin: 10px 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content:space-between;
+    align-items: center;
+}
+/* a:hover{
+    padding: 5px;
+    text-decoration: none;
+    background-color: #000;
+    color: #ffff;
+} */
+
+.top{
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+    height: 20%;
+    width: 100%;
+    background-image: url('https://image.shutterstock.com/image-photo/black-wall-texture-rough-background-260nw-1450341161.jpg');
+    background-size: cover;
+}
+.top p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    color: #fff;
+}
+ .center input{
+    padding: 10px 50px;
+    /* position: absolute;
+    left: 10%; */
+    border: none;
+}
+.facebook{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:#4267B2;
+    color:whitesmoke;
+}
+
+.google{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:#DB4437;
+    color: white;
+}
+
+.twitter{
+    padding: 10px;
+    margin: 10px;
+    border: 8px;
+    border-radius: 8px;
+    background-color:#1DA1F2;
+    color: white;
+}
+.content{
+    
+    margin: 40px;
+    padding: 10px;
+    width: 20%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLcc1Gf0crJNxlRq3XWcde64adE7tPB3E6mA&usqp=CAU');
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+    background-color: #fff;
+}
+
+.content-1{
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj0921zw7BYxuH-VX8_eQlnf2ar0Bu_3NnwC_OPPKBwwzQy7KeUJGw5tXE9lz38B0QCws&usqp=CAU');
+    background-size: cover;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    width: 20%;
+   
+}
+.content-2{
+    margin: 40px;
+    width: 20%;
+    padding: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_hiQ-sqfN3wnk9lHyDywYmZ5-X-IfpUUllg&usqp=CAU');
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background-color: #fff;
+}
+.header {
+  
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center; 
+
+    background-image: url('blue-image.jpg');
+    background-size: cover;
+}
+
+.content > div {
+  color: #fff;
+ 
+}
+
+.content-1 > div {
+    color: #fff;
+}
+
+.content-2 > div {
+   color: #fff;
+}
+
+.bottom{
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+  background-image: url('https://media.istockphoto.com/id/186149483/photo/selective-focus-of-cars-at-european-dealership.jpg?s=612x612&w=0&k=20&c=H0DxKBcymnCRVcQOTp5bsmAXuOTBXBvJwrhM6SinX4I=');
+    background-size: cover;
+}
+
+/* .google{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:white;
+} */
+
+/* .btn-1{
+    font-size: 20px;
+    color:#4285F4;
+}
+.btn-2{
+  color:#DB4437;
+}
+.btn-3{
+ color: #F4B400;
+
+}
+.btn-4{
+  color: #4285F4;
+}
+.btn-5{
+   color: #0F9D58;
+}
+.btn-6{
+  color: #DB4437;
+} */
+

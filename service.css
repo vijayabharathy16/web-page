@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.service{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    background: #000;
+    color: #fff;
+}
+
+.para{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+}
+.para h4{
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content{
+    padding: 5px;
+    margin: 20px;
+   
+   
+}
+
+.content > div {
+   
+    font-weight: bold;
+    padding: 10px;
+}
+.bottom {
+   display: flex;
+   margin-right: 40px;
+  
+}
+.bottom img{
+    width: 30%;
+    border-radius: 10px;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMPEhUSEhMVFRUXGBcVFxcVGBcVFxcYFRgaFxgVFxcYHSggGBolHRUWITEhJSkrLi4uGh8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALUBFgMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAIBABAAICAgMBAQEAAAAAAAAAAAERIfBh4UGhwbHRcf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A7aCqUBBBKEoAEUQSSAEVjf0yAKUADIoyCSQBJAkUAgqBQFIAQRQGQiCBFAUpAEJAkQCSIBQUA8cb4UogDCQDxxvhSrIBFAMVv4pRAIgEkgSKAQt2CAUooBC8b+GAClFAIXjfwgDIKAJIEjSAEUQShIARRBJIB+kUQQKAURRkEkqAI0qBJIFAIoCkgQSoDKSAIigKSBA0ASg2gGN9JEBu+1BUAMVwpRAKCgGK4+KVZAKCgGK421KsyA3fSKAY/e1O/FZAIgFCxXGOiLBSirAQsVwRYKUUAhYrggDIKAQiAIKAEEEoSAEUQSSAEUQQRAEUaBAoAlSoCkgUAwKApIFAIoCkqBQCKApKgQIBKCrAY30kQCgoGcVwZVkAoKAYrj4pVkAoKAYrjPalWQG76RQDvtTvxGwC3faICBiuMdNQLBSigELFcEWClFAIWK4IsFKIBIgCkAKSBKEgBFEEkgBFEEkgBBkEkgBCBIoFAMACgQQIoCkgUAgClIAggEoIBb/ErIDd9qCgGK4UqyAUFWAxXHz/AFSrIBQUAxXClWQG76RQDvtTvw2AUooBCxXGOiIkFKKAQsVwYFgpRQCFiuCLBSigEIgCCARBBKEIBGRRBIGABBBJIAQQSSAJEEkgUAgCEQEIigKBBAgCkgQIBJIEQQBhKAHjv6pW7CBKCAXjv6pW7BkAkQHjv6ZCkEkgSSAhIFC8d/VCAyFKBQsVxvkwN2ASRALxv6YG7AKSJICEQBSAFAgkkAshAUECSIJAgCCCQIBIgkkCgEAQUCBAFJAgQBSQBJAUECSQFBAqSQEQkCo0ECSQKiECIQESkBQQJUkCIQJUkBQQFUEBkJAQkD//2Q==');
+    
+}
+
+.btn{
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    background: hotpink;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+
+.order{
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    background-color:#fff;
+    color: black;
+    width: 30%;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.header{
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+}
+
+.header h1{
+    margin-top: 50px;
+    padding: 20px;
+}
+.header p {
+    padding: 20px;
+    font-size: 20px;
+}
+.last {
+    padding: 20px;
+    text-align: center;
+    background: #000;
+    font-size: 20px;
+    color: #fff;
+
+}
